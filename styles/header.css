@@ -1,0 +1,30 @@
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.header__wrapper {
+    min-width: 290px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.header__button {
+    width: 24px;
+    height: 24px;
+    background-color: #555A7B;
+    background-image: url('/img/phone_icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+}
+
+.header__number,
+.header__text {
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
