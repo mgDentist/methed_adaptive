@@ -1,6 +1,10 @@
 .about-us {
     padding: 30px 0 60px;
     background-color: #FFFFFF;
+
+    @media (min-width: 1024px) {
+        padding: 70px 0;
+    }
 }
 
 .about-us__title {
@@ -10,6 +14,11 @@
     line-height: 23px;
     text-align: center;
     color: #383A4C;
+
+    @media (min-width: 1024px) {
+        font-size: 32px;
+        line-height: 38px;
+    }
 }
 
 .about-us__title--secondary {
@@ -22,6 +31,13 @@
     line-height: 19px;
     text-align: center;
     color: #383A4C;
+
+    @media (min-width: 1024px) {
+        width: 174px;
+        margin-bottom: 33px;
+        font-size: 20px;
+        line-height: 23px;
+    }
 }
 
 .about-us__title--secondary::before {
@@ -34,6 +50,13 @@
     left: 0;
 }
 
+@media (min-width: 1024px) {
+    .about-us__title--secondary::before {
+        width: 40px;
+        height: 2px;
+    }
+}
+
 .about-us__title--secondary::after {
     content: '';
     position: absolute;
@@ -44,6 +67,12 @@
     right: 0;
 }
 
+@media (min-width: 1024px) {
+    .about-us__title--secondary::after {
+        width: 40px;
+        height: 2px;
+    }
+}
 
 .about-us__subtitle {
     margin-bottom: 40px;
@@ -52,12 +81,23 @@
     line-height: 17px;
     text-align: center;
     color: #383A4C;
+
+    @media (min-width: 1024px) {
+        margin-bottom: 50px;
+        font-size: 16px;
+        line-height: 23px;
+    }
 }
 
 .about-us__list {
     width: 180px;
     margin: 0 auto;
     counter-reset: item 0;
+
+    @media (min-width: 1024px) {
+        display: flex;
+        width: auto;
+    }
 }
 
 .about-us__list-item {

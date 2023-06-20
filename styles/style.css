@@ -1,7 +1,7 @@
+@import url('normalize.css');
 @import url('fonts.css');
 @import url('common.css');
 @import url('page.css');
-@import url('normalize.css');
 @import url('wrapper.css');
 @import url('header.css');
 @import url('intro.css');
@@ -9,6 +9,3 @@
 @import url('about-us.css');
 @import url('questions.css');
 @import url('footer.css');
-@import url();
-@import url();
-@import url();

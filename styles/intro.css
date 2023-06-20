@@ -1,10 +1,22 @@
 .intro {
     padding: 110px 0 65px;
     background-color: #4A4C61;
-    background-image: url('../img/background_intro_320.jpg');
+    background-image: url('/img/background_intro_320.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (min-width: 1024px) {
+        padding: 156px 0 70px;
+        background-image: url('/img/background_intro_1024.jpg');
+    }
+}
+
+.intro__wrapper {
+    @media (min-width: 1024px) {
+        width: 780px;
+        margin: 0 auto;
+    }
 }
 
 .intro__title {
@@ -16,6 +28,12 @@
     line-height: 23px;
     text-align: center;
     color: rgba(255, 255, 255, 0.86);
+
+    @media (min-width: 1024px) {
+        margin-bottom: 27px;
+        font-size: 40px;
+        line-height: 47px
+    }
 }
 
 .intro__subtitle {
@@ -26,4 +44,10 @@
     line-height: 20px;
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
+
+    @media (min-width: 1024px) {
+        margin-bottom: 60px;
+        font-size: 18px;
+        line-height: 25px;
+    }
 }
