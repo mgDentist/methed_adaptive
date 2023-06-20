@@ -49,26 +49,31 @@
             <div class="questions__wrapper wrapper">
                 <h2 class="questions__title title">Остались вопросы?</h2>
                 <p class="questions__subtitle subtitle">Оставьте номер телефона, и мы перезвоним вам</p>
-                <label class="questions__label">
-                    <input type="text" class="question__input" placeholder="Ваше имя">
-                </label>
-                <label class="questions__label">
-                    <input type="tel" class="question__input" placeholder="Телефон">
-                </label>
-                <label class="questions__label">
-                    <input type="mail" class="question__input" placeholder="E-mail">
-                </label>
+                <div class="questions__inputs-wrapper">
+                    <label class="questions__label">
+                        <input type="text" class="question__input" placeholder="Ваше имя">
+                    </label>
+                    <label class="questions__label">
+                        <input type="tel" class="question__input" placeholder="Телефон">
+                    </label>
+                    <label class="questions__label">
+                        <input type="mail" class="question__input" placeholder="E-mail">
+                    </label>
+                </div>
                 <button class="questions__button button">Позвоните мне</button>
-                <p class="questions__subtitle">Я даю своё <a href="http://#">согласие</a> на обработку моих персональных
+                <p class="questions__subtitle questions__subtitle--secondary">Я даю своё <a class="questions__link"
+                        href="http://#">согласие</a> на обработку моих персональных
                     данных.</p>
             </div>
         </section>
 
         <footer class="page__section footer">
             <div class="footer__wrapper wrapper">
-                <img class="header__image logo" src="#" alt="logo">
-                <p class="footer__subtitle subtitle">© 2022 XXXcompany.<br> 
-                    Все права защищены.</p>
+                <div class="footer__logo-text-wrapper">
+                    <img class="header__image logo" src="img/logo.svg" width="30" height="30" alt="logo">
+                    <p class="footer__subtitle subtitle">© 2022 XXXcompany.<br>
+                        Все права защищены.</p>
+                </div>
                 <button class="header__button"></button>
                 <p class="footer__subtitle subtitle footer__subtitle--footer">Сделано Ивановым Иваном</p>
             </div>

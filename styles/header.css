@@ -1,14 +1,13 @@
 .header {
     position: absolute;
-    display: flex;
-    justify-content: space-between;
     padding-top: 15px;
 }
 
 .header__wrapper {
     min-width: 290px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__button {

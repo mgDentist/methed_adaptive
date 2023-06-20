@@ -1,0 +1,40 @@
+.footer { 
+    padding-top: 25px;
+    padding-bottom: 0;
+    background-color: #2F324B;
+
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 25px;
+}
+
+.footer__logo-text-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.footer__subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.footer__subtitle--footer {
+    box-sizing: border-box;
+    width: 320px;
+    height: 47px;
+    padding: 15px 65px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FFFFFF50;
+    background-color: #2A2C3F;
+}
