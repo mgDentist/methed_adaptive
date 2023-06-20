@@ -10,6 +10,11 @@
         padding: 70px 0 56px;
         background-image: url('/img/background_quest_1024.jpg');
     }
+
+    @media (min-width: 1600px) {
+        padding: 70px 0;
+        background-image: url('/img/background_image_quest_1600.jpg');
+    }
 }
 
 .questions__title {
@@ -24,6 +29,12 @@
         margin-bottom: 16px;
         font-size: 32px;
         line-height: 38px;
+    }
+
+    @media (min-width: 1600px) {
+        margin-bottom: 17px;
+        font-size: 35px;
+        line-height: 41px;
     }
 }
 
@@ -40,6 +51,11 @@
         font-size: 20px;
         line-height: 23px;
     }
+
+    @media (min-width: 1600px) {
+        font-size: 22px;
+        line-height: 26px;
+    }
 }
 
 .questions__inputs-wrapper {
@@ -53,6 +69,11 @@
         gap: 20px;
         margin: 0 auto;
         margin-bottom: 50px;
+    }
+
+    @media (min-width: 1600px) {
+        width: 423px;
+        gap: 21px;
     }
 }
 
@@ -77,6 +98,13 @@
         font-size: 20px;
         line-height: 23px;
         border: 2px solid #FFFFFF;
+    }
+
+    @media (min-width: 1600px) {
+        width: 423px;
+        height: 44px;
+        font-size: 22px;
+        line-height: 26px;
     }
 }
 
@@ -104,6 +132,11 @@
     @media (min-width: 1024px) {
         font-size: 17px;
         line-height: 20px;
+    }
+
+    @media (min-width: 1600px) {
+        font-size: 20px;
+        line-height: 23px;
     }
 }
 

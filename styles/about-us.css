@@ -19,6 +19,11 @@
         font-size: 32px;
         line-height: 38px;
     }
+
+    @media (min-width: 1600px) {
+        font-size: 35px;
+        line-height: 41px;
+    }
 }
 
 .about-us__title--secondary {
@@ -37,6 +42,13 @@
         margin-bottom: 33px;
         font-size: 20px;
         line-height: 23px;
+    }
+
+    @media (min-width: 1600px) {
+        width: 189px;
+        margin-bottom: 35px;
+        font-size: 22px;
+        line-height: 26px;
     }
 }
 
@@ -57,6 +69,12 @@
     }
 }
 
+@media (min-width: 1600px) {
+    .about-us__title--secondary::before {
+        width: 43px;
+    }
+}
+
 .about-us__title--secondary::after {
     content: '';
     position: absolute;
@@ -74,6 +92,12 @@
     }
 }
 
+@media (min-width: 1600px) {
+    .about-us__title--secondary::after {
+        width: 43px;
+    }
+}
+
 .about-us__subtitle {
     margin-bottom: 40px;
     font-weight: 400;
@@ -86,6 +110,12 @@
         margin-bottom: 50px;
         font-size: 16px;
         line-height: 23px;
+    }
+
+    @media (min-width: 1600px) {
+        margin-bottom: 50px;
+        font-size: 18px;
+        line-height: 25px;
     }
 }
 
@@ -104,17 +134,24 @@
     position: relative;
     padding-top: 130px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
     color: #383A4C;
     counter-increment: item 1;
+
+    @media (min-width: 1600px) {
+        padding-top: 138px;
+        font-size: 20px;
+        line-height: 28px;
+    }
 }
 
 .about-us__list-item:not(:last-child) {
-    margin-bottom: 40px;
+    @media (max-width: 1023px) {
+        margin-bottom: 40px;
+    }
 }
 
 .about-us__list-item::before {
@@ -130,7 +167,15 @@
     border-radius: 50%;
     font-weight: 500;
     font-size: 52px;
-    line-height: 73px;
+    line-height: 95px;
     text-align: center;
     color: #FFFFFF;
+}
+
+@media (min-width: 1600px) {
+    .about-us__list-item::before {
+        width: 122px;
+        height: 122px;
+        line-height: 110px;
+    }
 }

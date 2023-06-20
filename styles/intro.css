@@ -10,12 +10,21 @@
         padding: 156px 0 70px;
         background-image: url('/img/background_intro_1024.jpg');
     }
+
+    @media (min-width: 1600px) {
+        padding: 228px 0 120px;
+        background-image: url('/img/background_intro_1600.jpg');
+    }
 }
 
 .intro__wrapper {
     @media (min-width: 1024px) {
         width: 780px;
         margin: 0 auto;
+    }
+
+    @media (min-width: 1600px) {
+        width: 990px;
     }
 }
 
@@ -34,6 +43,12 @@
         font-size: 40px;
         line-height: 47px
     }
+
+    @media (min-width: 1600px) {
+        margin-bottom: 35px;
+        font-size: 52px;
+        line-height: 61px;
+    }
 }
 
 .intro__subtitle {
@@ -49,5 +64,11 @@
         margin-bottom: 60px;
         font-size: 18px;
         line-height: 25px;
+    }
+
+    @media (min-width: 1600px) {
+        margin-bottom: 90px;
+        font-size: 22px;
+        line-height: 31px;
     }
 }
