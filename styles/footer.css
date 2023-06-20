@@ -18,6 +18,15 @@
     justify-content: space-between;
     align-items: center;
     row-gap: 25px;
+    padding: 0;
+
+    @media (min-width: 1024px) {
+        padding: 0 30px;
+    }
+
+    @media (min-width: 1600px) {
+        padding: 0 200px;
+    }
 }
 
 .footer__logo-text-wrapper {
@@ -129,8 +138,23 @@
     background-repeat: no-repeat;
     border: none;
     border-radius: 50%;
+    margin-right: 15px;
 
     @media (min-width: 1024px) {
         display: none;
+    }
+}
+
+.footer__image {
+    margin-left: 15px;
+
+    @media (min-width: 1024px) {
+        width: 60px;
+        height: 60px;
+    }
+
+    @media (min-width: 1600px) {
+        width: 68px;
+        height: 68px;
     }
 }
