@@ -1,6 +1,6 @@
 .about-us {
     padding: 30px 0 60px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     
     @media (min-width: 1024px) {
         padding: 70px 0;
@@ -57,7 +57,7 @@
     position: absolute;
     width: 20px;
     height: 1px;
-    background-color: #383A4C;
+    background-color: #383a4c;
     top: 50%;
     left: 0;
 }
@@ -80,7 +80,7 @@
     position: absolute;
     width: 20px;
     height: 1px;
-    background-color: #383A4C;
+    background-color: #383a4c;
     top: 50%;
     right: 0;
 }
@@ -104,7 +104,7 @@
     font-size: 12px;
     line-height: 17px;
     text-align: center;
-    color: #383A4C;
+    color: #383a4c;
 
     @media (min-width: 1024px) {
         margin-bottom: 50px;
@@ -120,17 +120,24 @@
 }
 
 .about-us__list {
-    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    /* width: 180px; */
     margin: 0 auto;
     counter-reset: item 0;
 
     @media (min-width: 1024px) {
-        display: flex;
-        width: auto;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        /* width: auto; */
     }
 }
 
 .about-us__list-item {
+    width: 166px;
     position: relative;
     padding-top: 130px;
     font-family: 'Roboto';
@@ -138,19 +145,18 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-    color: #383A4C;
+    color: #383a4c;
     counter-increment: item 1;
 
+    @media (min-width: 1024px) {
+        width: 180px;
+    }
+
     @media (min-width: 1600px) {
+        width: 196px;
         padding-top: 138px;
         font-size: 20px;
         line-height: 28px;
-    }
-}
-
-.about-us__list-item:not(:last-child) {
-    @media (max-width: 1023px) {
-        margin-bottom: 40px;
     }
 }
 
@@ -163,13 +169,13 @@
     margin: auto;
     right: 0;
     left: 0;
-    background-color: #23C7EC;
+    background-color: #23c7ec;
     border-radius: 50%;
     font-weight: 500;
     font-size: 52px;
     line-height: 95px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 @media (min-width: 1600px) {

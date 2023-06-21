@@ -1,7 +1,7 @@
 .questions {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #4A4C61;
+    background-color: #4a4c61;
     background-image: url('/img/background_quest_320.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@
     font-size: 20px;
     line-height: 23px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 
     @media (min-width: 1024px) {
         margin-bottom: 16px;
@@ -88,7 +88,7 @@
     font-size: 14px;
     line-height: 16px;
     color: rgba(255, 255, 255, 0.5);
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     border-radius: 50px;
     background-color: transparent;
 
@@ -127,7 +127,7 @@
     font-size: 11px;
     line-height: 13px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 
     @media (min-width: 1024px) {
         font-size: 17px;
@@ -141,5 +141,5 @@
 }
 
 .questions__link {
-    color: #4A76A8;
+    color: #4a76a8;
 }

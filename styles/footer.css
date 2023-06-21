@@ -1,7 +1,7 @@
 .footer {
     padding-top: 25px;
     padding-bottom: 0;
-    background-color: #2F324B;
+    background-color: #2f324b;
 
     @media (min-width: 1024px) {
         padding: 37px 0 49px;
@@ -40,7 +40,7 @@
     font-weight: 500;
     font-size: 8px;
     line-height: 11px;
-    color: #FFFFFF;
+    color: #ffffff;
 
     @media (min-width: 1024px) {
         font-size: 12px;
@@ -56,8 +56,8 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 17px;
-    color: #FFFFFF50;
-    background-color: #2A2C3F;
+    color: rgba(255, 255, 255, 0.314);
+    background-color: #2a2c3f;
 
     @media (min-width: 1024px) {
         font-size: 12px;
@@ -66,7 +66,7 @@
     }
 
     @media (min-width: 1600px) {
-        color: #FFFFFF;
+        color: #ffffff;
     }
 }
 
@@ -89,7 +89,7 @@
         font-size: 21px;
         line-height: 25px;
         text-align: center;
-        color: #FFFFFF;
+        color: #ffffff;
     }
 
     @media (min-width: 1600px) {
@@ -105,7 +105,7 @@
         font-size: 13px;
         line-height: 15px;
         text-align: center;
-        color: #FFFFFF;
+        color: #ffffff;
         cursor: pointer;
     }
 
@@ -138,7 +138,7 @@
 .footer__button {
     width: 24px;
     height: 24px;
-    background-color: #555A7B;
+    background-color: #555a7b;
     background-image: url('/img/phone_icon.svg');
     background-position: center;
     background-repeat: no-repeat;
