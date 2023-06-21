@@ -1,5 +1,5 @@
 .intro {
-    padding: 110px 0 65px;
+    padding: 110px 0 67px;
     background-color: #4a4c61;
     background-image: url('/img/background_intro_320.jpg');
     background-position: center;
@@ -30,7 +30,7 @@
 
 .intro__title {
     margin: 0;
-    margin-bottom: 23px;
+    margin-bottom: 25px;
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
@@ -45,7 +45,7 @@
     }
 
     @media (min-width: 1600px) {
-        margin-bottom: 35px;
+        margin-bottom: 33px;
         font-size: 52px;
         line-height: 61px;
     }
@@ -54,6 +54,7 @@
 .intro__subtitle {
     margin: 0;
     margin-bottom: 54px;
+    /* padding: 0 10px; */
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -70,5 +71,17 @@
         margin-bottom: 90px;
         font-size: 22px;
         line-height: 31px;
+    }
+}
+
+.intro__subtitle--invisible {
+    @media (max-width: 1023px) {
+        display: none;   
+    }
+}
+
+.intro__br {
+    @media (max-width: 1599px) {
+        display: none;
     }
 }
