@@ -129,6 +129,12 @@
     cursor: pointer;
 }
 
+@media (min-width: 1600px) {
+    .footer__link::after {
+        width: 132px;
+    }
+}
+
 .footer__button {
     width: 24px;
     height: 24px;
