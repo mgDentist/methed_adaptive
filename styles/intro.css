@@ -5,27 +5,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    @media (min-width: 1024px) {
-        padding: 156px 0 70px;
-        background-image: url('/img/background_intro_1024.jpg');
-    }
-
-    @media (min-width: 1600px) {
-        padding: 228px 0 120px;
-        background-image: url('/img/background_intro_1600.jpg');
-    }
 }
 
 .intro__wrapper {
-    @media (min-width: 1024px) {
-        width: 780px;
-        margin: 0 auto;
-    }
-
-    @media (min-width: 1600px) {
-        width: 990px;
-    }
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .intro__title {
@@ -37,51 +21,72 @@
     line-height: 23px;
     text-align: center;
     color: rgba(255, 255, 255, 0.86);
-
-    @media (min-width: 1024px) {
-        margin-bottom: 27px;
-        font-size: 40px;
-        line-height: 47px
-    }
-
-    @media (min-width: 1600px) {
-        margin-bottom: 33px;
-        font-size: 52px;
-        line-height: 61px;
-    }
 }
 
 .intro__subtitle {
     margin: 0;
     margin-bottom: 54px;
-    /* padding: 0 10px; */
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
+}
 
-    @media (min-width: 1024px) {
+@media (max-width: 1023px) {
+    .intro__subtitle--invisible {
+        display: none; 
+    }
+}
+
+@media (max-width: 1599px) {
+    .intro__br {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        padding: 156px 0 70px;
+        background-image: url('/img/background_intro_1024.jpg');
+    }
+
+    .intro__wrapper {
+        min-width: 780px;
+    }
+
+    .intro__title {
+        margin-bottom: 27px;
+        font-size: 40px;
+        line-height: 47px
+    }
+
+    .intro__subtitle {
         margin-bottom: 60px;
         font-size: 18px;
         line-height: 25px;
     }
+}
 
-    @media (min-width: 1600px) {
+@media (min-width: 1600px) {
+    .intro {
+        padding: 228px 0 120px;
+        background-image: url('/img/background_intro_1600.jpg');
+    }
+
+    .intro__wrapper {
+        min-width: 1350px;
+    }
+
+    .intro__title {
+        margin-bottom: 33px;
+        font-size: 52px;
+        line-height: 61px;
+    }
+
+    .intro__subtitle {
         margin-bottom: 90px;
         font-size: 22px;
         line-height: 31px;
-    }
-}
-
-.intro__subtitle--invisible {
-    @media (max-width: 1023px) {
-        display: none;   
-    }
-}
-
-.intro__br {
-    @media (max-width: 1599px) {
-        display: none;
     }
 }

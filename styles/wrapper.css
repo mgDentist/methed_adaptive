@@ -1,11 +1,15 @@
 .wrapper {
     padding: 0 15px;
+}
 
-    @media (min-width: 1024px) {
+@media (min-width: 1024px) {
+    .wrapper {
         padding: 0 30px;
     }
+}
 
-    @media (min-width: 1600px) {
+@media (min-width: 1600px) {
+    .wrapper {
         padding: 0 200px;
     }
 }
