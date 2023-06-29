@@ -4,12 +4,14 @@
 
 @media (min-width: 1024px) {
     .wrapper {
+        max-width: 1086px;
         padding: 0 30px;
     }
 }
 
 @media (min-width: 1600px) {
     .wrapper {
-        padding: 0 200px;
+        max-width: 1300px;
+        padding: 0 50px;
     }
 }

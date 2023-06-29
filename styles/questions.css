@@ -5,6 +5,10 @@
     background-image: url('/img/background_quest_320.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}   
+
+.questions__wrapper {
+    margin: 0 auto;
 }
 
 .questions__title {
@@ -75,7 +79,7 @@
 
 @media (min-width: 1024px) {
     .questions {
-        padding: 70px 0 56px;
+        padding: 70px 0 4px;
         background-image: url('/img/background_quest_1024.jpg');
     }
 
@@ -97,7 +101,7 @@
         width: 379px;
         gap: 20px;
         margin: 0 auto;
-        margin-bottom: 52px;
+        margin-bottom: 50px;
     }
 
     .question__input {
@@ -111,6 +115,7 @@
     .questions__button {
         width: 218px;
         padding: 11px 30px;
+        margin-bottom: 33px;
         font-size: 20px;
         line-height: 23px;
         text-transform: lowercase;
@@ -119,14 +124,13 @@
     .questions__subtitle--secondary {
         font-size: 17px;
         line-height: 20px;
+        margin-left: -3px;
     }
 }
 
-
-
 @media (min-width: 1600px) {
     .questions {
-        padding: 70px 0;
+        padding: 70px 0 20px;
         background-image: url('/img/background_image_quest_1600.jpg');
     }
 

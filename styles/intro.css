@@ -39,12 +39,6 @@
     }
 }
 
-@media (max-width: 1599px) {
-    .intro__br {
-        display: none;
-    }
-}
-
 @media (min-width: 1024px) {
     .intro {
         padding: 156px 0 70px;
@@ -62,7 +56,9 @@
     }
 
     .intro__subtitle {
+        min-width: 754px;
         margin-bottom: 60px;
+        margin-left: -17px;
         font-size: 18px;
         line-height: 25px;
     }
@@ -75,7 +71,7 @@
     }
 
     .intro__wrapper {
-        min-width: 1350px;
+        min-width: 1030px;
     }
 
     .intro__title {
@@ -86,6 +82,7 @@
 
     .intro__subtitle {
         margin-bottom: 90px;
+        margin-left: -8px;
         font-size: 22px;
         line-height: 31px;
     }

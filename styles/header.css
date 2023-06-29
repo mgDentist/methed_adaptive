@@ -6,6 +6,7 @@
 }
 
 .header__wrapper {
+    min-width: 290px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,8 +45,12 @@
 }
 
 @media (min-width: 1024px) {
-    .header { 
+    .header {
         padding-top: 26px;
+    }
+
+    .header__wrapper {
+        max-width: 1024px;
     }
 
     .header__image {
@@ -84,9 +89,12 @@
 }
 
 @media (min-width: 1600px) {
-    .header { 
-    
+    .header {
         padding-top: 40px;
+    }
+
+    .header__wrapper {
+        max-width: 1300px;
     }
 
     .header__image {
