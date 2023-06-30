@@ -106,6 +106,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 50px;
+        padding: 0;
     }
 }
 
