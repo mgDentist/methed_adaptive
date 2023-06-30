@@ -2,6 +2,13 @@
     padding: 0 15px;
 }
 
+@media (min-width: 768px) {
+    .wrapper {
+        max-width: 858px;
+        padding: 0 45px;
+    }
+}
+
 @media (min-width: 1024px) {
     .wrapper {
         max-width: 1086px;

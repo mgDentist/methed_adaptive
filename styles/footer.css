@@ -32,8 +32,7 @@
 
 .footer__subtitle--footer {
     flex-grow: 1;
-    width: 320px;
-    height: 47px;
+    flex-basis: 100%;
     padding: 12px 78px 19px 79px;
     text-align: center;
     font-weight: 500;
@@ -85,6 +84,16 @@
     }
 }
 
+@media (min-width: 768px) {
+    .footer__button  {
+        margin-right: 45px;
+    }
+
+    .footer__image {
+        margin-left: 45px;
+    }
+}
+
 @media (min-width: 1024px) {
     .footer {
         padding: 40px 0;
@@ -101,7 +110,7 @@
     }
 
     .footer__subtitle--footer {
-        margin-left: -17px;
+        flex-basis: 0;
         font-size: 12px;
         line-height: 17px;
         background-color: transparent;

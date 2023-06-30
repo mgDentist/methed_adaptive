@@ -56,9 +56,7 @@
     }
 
     .intro__subtitle {
-        min-width: 754px;
         margin-bottom: 60px;
-        margin-left: -17px;
         font-size: 18px;
         line-height: 25px;
     }
@@ -82,7 +80,6 @@
 
     .intro__subtitle {
         margin-bottom: 90px;
-        margin-left: -8px;
         font-size: 22px;
         line-height: 31px;
     }
