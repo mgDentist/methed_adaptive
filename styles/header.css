@@ -115,5 +115,6 @@
 
     .header__link::after {
         width: 132px;
+        bottom: -1px;
     }
 }

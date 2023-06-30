@@ -96,7 +96,7 @@
 
 @media (min-width: 1024px) {
     .footer {
-        padding: 40px 0;
+        padding: 38px 0;
     }
 
     .footer__wrapper {
@@ -111,6 +111,7 @@
 
     .footer__subtitle--footer {
         flex-basis: 0;
+        padding: 19px 89px 19px 64px;
         font-size: 12px;
         line-height: 17px;
         background-color: transparent;

@@ -64,6 +64,7 @@
     justify-content: center;
     align-items: center;
     gap: 42px;
+    padding-right: 3%;
     margin: 0 auto;
     counter-reset: item 0;
 }
@@ -148,7 +149,8 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 62px;
+        gap: 50px;
+        padding-right: 0;
     }
 
     .about-us__list-item {
@@ -172,10 +174,12 @@
 
     .about-us__title--secondary::before {
         width: 43px;
+        top: 53%;
     }
 
     .about-us__title--secondary::after {
         width: 43px;
+        top: 53%;
     }
 
     .about-us__subtitle {
