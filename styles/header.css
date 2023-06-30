@@ -65,11 +65,10 @@
     .header__text-wrapper {
         display: flex;
         flex-direction: column;
+        gap: 7px;
     }
 
     .header__number {
-        margin-top: -6px;
-        margin-bottom: 7px;
         font-weight: 400;
         font-size: 21px;
         line-height: 25px;
